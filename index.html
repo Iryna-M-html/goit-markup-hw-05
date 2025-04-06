@@ -348,7 +348,7 @@
                     <label aria-label="footer-email" class="footer-label">
                         <input class="footer-input" type="email" name="email" id="email" placeholder="E-mail">
                     </label>
-                    <button type="submit" class="footer-form-btn">Subscribe<svg class="irow" width="24" height="20">
+                    <button type="submit" class="footer-form-btn">Subscribe<svg class="irow" width="24" height="24">
                         <use href="./images/icons.svg#icon-arow"></use>
                     </svg></button>
                 </form>
@@ -361,10 +361,10 @@
     <div class="backdrop is-open">
         <div class="modal">
                 <button type="button" class="modal-close-btn">
-                <span class="one">
-                    <svg class="close-style">
-                        <use href="./images/icons.svg#icon-close"></use>
-                    </svg></button>
+                    <span class="one">
+                        <svg class="close-style">
+                            <use href="./images/icons.svg#icon-close"></use>
+                        </svg></button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
             <form class="modal-form">
                 <div class="modal-field">
@@ -406,24 +406,24 @@
                         </svg>
                     </div>
                 </div>
-                <div class="modal-field">
+                <div class="modal-field field">
                     <label for="Comment" class="modal-lbl">Comment</label>
-                    <textarea name="user-text" id="user-text" class="modal-textarea" placeholder="Text input"></textarea>  
+                    <textarea for="user-comment" name="user-comment"  id="user-comment" class="modal-textarea" placeholder="Text input"></textarea>  
                 </div>
                 
                 <div class="policy-all">
-                    <input type="checkbox" name="policy" id="policy"
+                    <input type="checkbox" name="user-privacy" id="user-privacy"
                     class="modal-chek visually-hidden"
                     value="true">
-                    <label for="policy" class="modal-chek-text"><span class="input-illusion">
+                    <label for="user-privacy" class="modal-chek-text"><span class="input-illusion">
                         <svg class="chek-style" width="10" height="8" >
                             <use href="./images/icons.svg#icon-check"></use>
                         </svg>
                     </span>I accept the terms and conditions of the <a class="policy-link" href="">Privacy Policy</a></label>
                 </div>
-            
+                <button type="button" class="modal-send-btn">Send</button>
             </form>
-            <button type="button" class="modal-send-btn">Send</button>
+            
         </div>
     </div>
 </body>
