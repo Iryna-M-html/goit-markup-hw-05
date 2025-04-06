@@ -614,13 +614,12 @@ margin: start;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.closes:hover{
+
+.modal-close-btn:focus+.closes{
     fill: #ffffff;
 }
 
-.closes:focus{
-    fill: #ffffff;
-}
+
 
 .modal-close-btn:hover{
     background-color: #404bbf;
@@ -664,10 +663,7 @@ margin: start;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-block:hover .modal-icon,
-.input-focus:hover .modal-icon {
-    fill: #FFFFFF;
-}
+
 
 .modal-lbl{
     font-family: "Roboto", sans-serif;
