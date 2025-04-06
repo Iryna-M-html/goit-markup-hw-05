@@ -606,7 +606,7 @@ margin: start;
     transition-property: border, background-color, fill;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-style{
+.closes{
     width: 8px;
     height: 8px;
     fill: #2e2f42;
@@ -614,12 +614,11 @@ margin: start;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.close-style:hover{
-    fill: #fff;
+.closes:hover{
+    fill: #ffffff;
 }
 
-.close-style:focus{
+.closes:focus{
     fill: #ffffff;
 }
 
